@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  cursor: pointer;
+  
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hero {
+  background:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  width: 1340px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hreo-inner {
+  width: 720px;
+  height: 278px;
+  text-align: center;
+}
+
+.hero .hreo-inner .title{
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+}
+
+.hero .hreo-inner .heading{
+  margin-top: 11px;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hero .hreo-inner .descrip{
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.hero .hreo-inner .btn {
+  margin-top: 22px;
+  border: transparent;
+  padding: 15px 22px;
+  border-radius: 5px;
+}
+
+#card{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card .container {
+  width: 934px;
+  height: 620px;
+}
+
+#card .container .headig {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card .container .headig h4{
+  width: 490px;
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+
+#card .container .headig h2{
+  width: 490px;
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 34px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card .container .card-container{
+  margin-bottom:45px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card .container .card-container .card-item{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card .container .card-container .card-item img{
+  width: 100%;
+}
+
+#card .container .card-container .card-item h4 {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 22px;
+  margin-top: 22px;
+  margin-bottom: 16px;
+}
+
+#card .container .card-container .card-item h3{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#card .container .card-container .card-item p{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19 px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+#card .container .cta-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card .container .cta-btn .btn{
+  padding: 14px 22px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+#about{
+  margin-top: 100px;
+}
+
+#about .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .container > div {
+  width: 670px;
+}
+
+#about .container .left img{
+  width: 100%;
+}
+
+#about .container .right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .container .right .about-inner {
+  width: 587px;
+}
+
+#about .container .right .about-inner .headig h2{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+#about .container .right .about-inner .headig p{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#about .container .right .about-inner .social-icon{
+  margin-top: 33px;
+}
+
+
+#about .container .right .about-inner .social-icon h4{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  padding: 20px 0;
+  border-top: 1px solid rgba(16, 16, 16, 0.3);
+  border-bottom: 1px solid rgba(16, 16, 16, 0.5);
+}
+
+#about .container .right .about-inner .social-icon .icon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+#about .container .right .about-inner .social-icon .icon i{
+  background: rgb(82, 195, 3);
+  color: rgba(0, 0, 0, 0.8);
+  padding: 5px 9px;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#single-card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#single-card .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#single-card .container .card-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#single-card .container .card-item img{
+  width: 100%;
+}
+
+#single-card .container .card-item h4 {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 22px;
+  margin-top: 22px;
+  margin-bottom: 16px;
+}
+
+#single-card .container .card-item h3{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+#single-card .container .card-item p{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19 px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+#single-card .container .cta-btn{
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#single-card .container .cta-btn .btn{
+  padding: 14px 22px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+#social {
+  background:linear-gradient( rgba(231, 231, 231, 0.8) ,rgba(231, 231, 231, 0.8)), url(../assets/social-bg.png);
+  background-size: cover;
+  background-position: center;
+  width: 1340px;
+  height: 475px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social .container .about-inner{
+  width: 934px;
+}
+
+#social .container .about-inner .headig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#social .container .about-inner .headig h2{
+  width: 570px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+#social .container .about-inner .headig p{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#social .container .about-inner .social-icon{
+  margin-top: 33px;
+}
+
+
+#social .container .about-inner .social-icon h4{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  padding: 20px 0;
+  border-top: 1px solid rgba(16, 16, 16, 0.3);
+  border-bottom: 1px solid rgba(16, 16, 16, 0.3);
+}
+
+#social .container .about-inner .social-icon .icon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+#social .container .about-inner .social-icon .icon i{
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  padding: 5px 9px;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+}

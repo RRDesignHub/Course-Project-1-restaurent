@@ -4,6 +4,7 @@ This the first landing page that designed after enrolling course which is a rest
 
 ## New for me:
 
-### 1. Figma file.
+### 1. Explored in Pixso UI webite.
 ### 2. Raw css code without framework.
 ### 3. New UI.
+### 4. Design website from figma file in pixel perfectly.
